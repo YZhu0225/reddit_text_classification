@@ -6,3 +6,6 @@ pandas
 black
 transformers
 praw
+numpy
+gradio
+altair
