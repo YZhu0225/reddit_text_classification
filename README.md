@@ -59,3 +59,22 @@ Things to do:
 Due date: December 16, 2022 
 
 Demo - split up the workload so that it uses everybody’s best talents, not everyone has to present, break problem up so that final outcome is the best, one person really good at editing, can be editor, if one person is good at voiceocer then do the voiceover, if one person is good at documentation, then one person does documentation, if one person is doing coding, then one person is doing coding, 
+
+
+
+
+
+### Get Reddit data
+* Data pulled in notebook `reddit_data/reddit_new.ipynb`
+### Verify GPU works
+* Run pytorch training test: `python utils/quickstart_pytorch.py`
+* Run pytorch CUDA test: `python utils/verify_cuda_pytorch.py`
+* Run tensorflow training test: `python utils/quickstart_tf2.py`
+* Run nvidia monitoring test: `nvidia-smi -l 1`
+
+### Finetune text classifier model and upload to Hugging Face 
+* In terminal, run `huggingface-cli login`
+* Run `python fine_tune_berft.py` to finetune the model on Reddit data 
+* Run `rename_labels.py` to change the output labels of the classifier
+* Check out the fine-tuned model [here](https://huggingface.co/michellejieli/inappropriate_text_classifier) [Spaces APP](https://huggingface.co/spaces/yjzhu0225/reddit_text_classification_app)
+
