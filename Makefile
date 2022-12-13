@@ -3,14 +3,11 @@ install:
 		pip install -r requirements.txt
 
 format:	
-	black *.py logic/*py 
+	black app.py
 
 lint:
-	pylint --disable=R,C test_logic.py
+	pylint --disable=R,C app.py
 
-test:
-	python -m pytest -vv test_logic.py
- 
 run: 
 	#run docker
 	docker run -p 127.0.0.1:8080:8080 1896dd6bda62

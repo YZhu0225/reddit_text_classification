@@ -7,7 +7,7 @@ import praw
 import pandas as pd
 from praw.models import MoreComments
 from transformers import pipeline
-from transformers import DistilBertTokenizerFast
+#from transformers import DistilBertTokenizerFast
 import gradio as gr
 import numpy as np
 
