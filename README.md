@@ -12,6 +12,8 @@ pinned: false
 
 # reddit_text_classification
 
+[![Sync to Hugging Face hub](https://github.com/YZhu0225/reddit_text_classification/actions/workflows/sync_to_hugging_face_hub.yml/badge.svg)](https://github.com/YZhu0225/reddit_text_classification/actions/workflows/sync_to_hugging_face_hub.yml)
+
 Ideas - text classification 
 
 API that does a microservice
