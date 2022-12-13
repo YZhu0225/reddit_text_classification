@@ -12,6 +12,8 @@ pinned: false
 
 # Reddit Explicit Text Classifier
 
+[![Python application test with Github Actions](https://github.com/YZhu0225/reddit_text_classification/actions/workflows/main.yml/badge.svg)](https://github.com/YZhu0225/reddit_text_classification/actions/workflows/main.yml) [![Sync to Hugging Face hub](https://github.com/YZhu0225/reddit_text_classification/actions/workflows/sync_to_hugging_face_hub.yml/badge.svg)](https://github.com/YZhu0225/reddit_text_classification/actions/workflows/sync_to_hugging_face_hub.yml)
+
 In this project, we created a text classifier Hugging Face Spaces app and Gradio interface that classifies not safe for work (NSFW) content, specifically text that is considered inappropriate and unprofessional. We used a pre-trained DistilBERT transformer model for the sentiment analysis. The model was fine-tuned on Reddit posts and predicts 2 classes - which are NSFW and safe for work (SFW).
 
 ### Get Reddit data
