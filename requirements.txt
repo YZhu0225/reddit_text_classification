@@ -5,6 +5,7 @@ uvicorn[standard]
 pandas
 black
 transformers
+torch
 praw
 numpy
 gradio
