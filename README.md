@@ -1,3 +1,15 @@
+---
+title: reddit_text_classification_app 
+emoji: 🐠
+colorFrom: blue
+colorTo: green
+sdk: gradio
+sdk_version: 3.13.0
+app_file: app.py
+pinned: false
+---
+
+
 # reddit_text_classification
 
 Ideas - text classification 
