@@ -1,0 +1,8 @@
+fastapi
+pytest
+pylint
+uvicorn[standard]
+pandas
+black
+transformers
+praw
