@@ -76,5 +76,6 @@ Demo - split up the workload so that it uses everybody’s best talents, not eve
 * In terminal, run `huggingface-cli login`
 * Run `python fine_tune_berft.py` to finetune the model on Reddit data 
 * Run `rename_labels.py` to change the output labels of the classifier
-* Check out the fine-tuned model [here](https://huggingface.co/michellejieli/inappropriate_text_classifier) [Spaces APP](https://huggingface.co/spaces/yjzhu0225/reddit_text_classification_app)
+* Check out the fine-tuned model [here](https://huggingface.co/michellejieli/inappropriate_text_classifier) 
+* [Spaces APP](https://huggingface.co/spaces/yjzhu0225/reddit_text_classification_app)
 
