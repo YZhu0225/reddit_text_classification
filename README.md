@@ -23,15 +23,15 @@ pinned: false
 
 ## Demo
 
-Link to youtube:
+Link to Youtube demo:
 
 [<img width="700" src="https://user-images.githubusercontent.com/112578003/207716480-a5ac9596-8095-46d5-9df9-d6973af38e3e.png">](https://youtu.be/0OY0CCK3lI4 "Reddit")
 
 ## Introduction
 
-Reddit is a place where people come together to have a variety of conversations on the internet. However, the negative impacts of abusive language on users in online communities are severe. As students passionate about data science, we are interested in detecting inappropriate and unprofessional Reddit posts and warning users based on the url of the posts. 
+Reddit is a place where people come together to have a variety of conversations on the internet. However, the negative impacts of abusive language on users in online communities are severe. As students passionate about data science, we are interested in detecting inappropriate and unprofessional Reddit posts and warn users about explicit content in these posts.
 
-In this project, we created a text classifier Hugging Face Spaces app and Gradio interface that classifies not safe for work (NSFW) content, specifically text that is considered inappropriate and unprofessional. We used a pre-trained DistilBERT transformer model for the sentiment analysis. The model was fine-tuned on Reddit posts and predicts 2 classes - which are NSFW and safe for work (SFW).
+In this project, we created a text classifier Hugging Face Spaces app and a Gradio interface that classifies not safe for work (NSFW) content, specifically text that is considered inappropriate and unprofessional. We used a pre-trained DistilBERT transformer model for the sentiment analysis. The model was fine-tuned on Reddit posts and predicts 2 classes - NSFW and safe for work (SFW).
 
 ## Workflow
 <p align="center">
@@ -40,7 +40,7 @@ In this project, we created a text classifier Hugging Face Spaces app and Gradio
 
 ### Get Reddit data
 
-* Data pulled in notebook `reddit_data/reddit_new.ipynb`
+* Data pulled in notebook `reddit_data/reddit_new.ipynb` to fine-tune Hugging Face model.
 
 ### Verify GPU works in this [repo](https://github.com/nogibjj/Reddit_Classifier_Final_Project)
 * Run pytorch training test: `python utils/quickstart_pytorch.py`
