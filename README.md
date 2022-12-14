@@ -22,7 +22,9 @@ pinned: false
 [![Sync to Hugging Face hub](https://github.com/YZhu0225/reddit_text_classification/actions/workflows/sync_to_hugging_face_hub.yml/badge.svg)](https://github.com/YZhu0225/reddit_text_classification/actions/workflows/sync_to_hugging_face_hub.yml)
 
 ## Demo
+<p align="center">
 [<img width="700" src="https://user-images.githubusercontent.com/112578003/207716480-a5ac9596-8095-46d5-9df9-d6973af38e3e.png">](https://youtu.be/0OY0CCK3lI4 "Reddit")
+</p>
 
 ## Introduction
 
