@@ -8,8 +8,6 @@ sdk_version: 3.13.0
 app_file: app.py
 pinned: false
 ---
-<img width="719" alt="Screen Shot 2022-12-14 at 3 00 11 PM" src="https://user-images.githubusercontent.com/112578003/207716480-a5ac9596-8095-46d5-9df9-d6973af38e3e.png">
-
 
 # Reddit Explicit Text Classifier
 
