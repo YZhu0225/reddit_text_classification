@@ -24,6 +24,8 @@ pinned: false
 
 ## Introduction
 
+Reddit is a place where people come together to have a variety of conversations on the internet. However, the negative impacts of abusive language on users in online communities are severe. As data science students, we are interested in detecting inappropriate and unprofessional Reddit posts and warning users based on the url of the posts. 
+
 In this project, we created a text classifier Hugging Face Spaces app and Gradio interface that classifies not safe for work (NSFW) content, specifically text that is considered inappropriate and unprofessional. We used a pre-trained DistilBERT transformer model for the sentiment analysis. The model was fine-tuned on Reddit posts and predicts 2 classes - which are NSFW and safe for work (SFW).
 
 ## Workflow
