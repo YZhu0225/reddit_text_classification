@@ -8,6 +8,7 @@ sdk_version: 3.13.0
 app_file: app.py
 pinned: false
 ---
+<img width="719" alt="Screen Shot 2022-12-14 at 3 00 11 PM" src="https://user-images.githubusercontent.com/112578003/207716480-a5ac9596-8095-46d5-9df9-d6973af38e3e.png">
 
 
 # Reddit Explicit Text Classifier
@@ -22,9 +23,12 @@ pinned: false
 [![Python application test with Github Actions](https://github.com/YZhu0225/reddit_text_classification/actions/workflows/main.yml/badge.svg)](https://github.com/YZhu0225/reddit_text_classification/actions/workflows/main.yml) 
 [![Sync to Hugging Face hub](https://github.com/YZhu0225/reddit_text_classification/actions/workflows/sync_to_hugging_face_hub.yml/badge.svg)](https://github.com/YZhu0225/reddit_text_classification/actions/workflows/sync_to_hugging_face_hub.yml)
 
+## Demo
+[<img width="700" src="https://user-images.githubusercontent.com/112578003/207716480-a5ac9596-8095-46d5-9df9-d6973af38e3e.png">](https://youtu.be/0OY0CCK3lI4 "Reddit")
+
 ## Introduction
 
-Reddit is a place where people come together to have a variety of conversations on the internet. However, the negative impacts of abusive language on users in online communities are severe. As data science students, we are interested in detecting inappropriate and unprofessional Reddit posts and warning users based on the url of the posts. 
+Reddit is a place where people come together to have a variety of conversations on the internet. However, the negative impacts of abusive language on users in online communities are severe. As students passionate about data science, we are interested in detecting inappropriate and unprofessional Reddit posts and warning users based on the url of the posts. 
 
 In this project, we created a text classifier Hugging Face Spaces app and Gradio interface that classifies not safe for work (NSFW) content, specifically text that is considered inappropriate and unprofessional. We used a pre-trained DistilBERT transformer model for the sentiment analysis. The model was fine-tuned on Reddit posts and predicts 2 classes - which are NSFW and safe for work (SFW).
 
