@@ -31,8 +31,12 @@ Reddit is a place where people come together to have a variety of conversations 
 In this project, we created a text classifier Hugging Face Spaces app and Gradio interface that classifies not safe for work (NSFW) content, specifically text that is considered inappropriate and unprofessional. We used a pre-trained DistilBERT transformer model for the sentiment analysis. The model was fine-tuned on Reddit posts and predicts 2 classes - which are NSFW and safe for work (SFW).
 
 ## Workflow
+<p align="center">
+  <img width="750" height="450" src="https://user-images.githubusercontent.com/112578003/207698683-233c228e-c2d0-441f-bbba-139dd24a98d3.png" />
+</p>
 
 ### Get Reddit data
+
 * Data pulled in notebook `reddit_data/reddit_new.ipynb`
 
 ### Verify GPU works
@@ -54,11 +58,24 @@ In this project, we created a text classifier Hugging Face Spaces app and Gradio
 * Check out the fine-tuned model [here](https://huggingface.co/michellejieli/inappropriate_text_classifier) 
 * Check out the spaces app [Spaces APP](https://huggingface.co/spaces/yjzhu0225/reddit_text_classification_app)
 
+**WARNING Reddit URL**
+<p align="center">
+  <img width="700" height="300" src="https://user-images.githubusercontent.com/112578003/207698979-f3751140-fc91-4613-9892-c22f2e5b7dfa.png">
+</p>
+
+**SAFE Reddit URL**
+<p align="center">
+  <img width="700" height="300" src="https://user-images.githubusercontent.com/112578003/207699308-8847e2f3-be76-47e4-8a0b-ba4406f5a693.png">
+</p>
+
 ### Gradio interface
 * In terminal, run `python3 app.py`
 * Open the browser
 * Put reddit URL in *input_url* and get output
-<p align="center">
-  <img width="700" height="450" src="https://user-images.githubusercontent.com/112578003/207481683-9a38c9e9-fd8f-48d9-be59-27f1583f96b6.jpeg">
-</p>
 
+### Reference
+[1] “CADD_dataset,” GitHub, Sep. 26, 2022. https://github.com/nlpcl-lab/cadd_dataset
+
+[2] H. Song, S. H. Ryu, H. Lee, and J. Park, “A Large-scale Comprehensive Abusiveness Detection Dataset with Multifaceted Labels from Reddit,” ACLWeb, Nov. 01, 2021. https://aclanthology.org/2021.conll-1.43/
+‌
+‌
