@@ -52,5 +52,6 @@ In this project, we created a text classifier Hugging Face Spaces app and Gradio
 
 ### Gradio interface
 * In terminal, run `python3 app.py`
+* Open the browser
 * Put reddit URL in *input_url* and get output
 ![WechatIMG3674](https://user-images.githubusercontent.com/112578003/207481683-9a38c9e9-fd8f-48d9-be59-27f1583f96b6.jpeg)
