@@ -22,6 +22,8 @@ pinned: false
 [![Python application test with Github Actions](https://github.com/YZhu0225/reddit_text_classification/actions/workflows/main.yml/badge.svg)](https://github.com/YZhu0225/reddit_text_classification/actions/workflows/main.yml) 
 [![Sync to Hugging Face hub](https://github.com/YZhu0225/reddit_text_classification/actions/workflows/sync_to_hugging_face_hub.yml/badge.svg)](https://github.com/YZhu0225/reddit_text_classification/actions/workflows/sync_to_hugging_face_hub.yml)
 
+## Demo
+
 ## Introduction
 
 Reddit is a place where people come together to have a variety of conversations on the internet. However, the negative impacts of abusive language on users in online communities are severe. As data science students, we are interested in detecting inappropriate and unprofessional Reddit posts and warning users based on the url of the posts. 
