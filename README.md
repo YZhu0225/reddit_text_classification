@@ -59,12 +59,12 @@ In this project, we created a text classifier Hugging Face Spaces app and Gradio
 * Run `python fine_tune_berft.py` to finetune the model on Reddit data 
 * Run `rename_labels.py` to change the output labels of the classifier
 * Check out the fine-tuned model [here](https://huggingface.co/michellejieli/inappropriate_text_classifier) 
-* Check out the spaces app [Spaces APP](https://huggingface.co/spaces/yjzhu0225/reddit_text_classification_app)
 
 ### Gradio interface
 * In terminal, run `python3 app.py`
 * Open the browser
 * Put reddit URL in *input_url* and get output
+* Or directly check out the spaces app [here](https://huggingface.co/spaces/yjzhu0225/reddit_text_classification_app)
 
 **WARNING Reddit URL**
 <p align="center">
