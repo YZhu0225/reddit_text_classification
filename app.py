@@ -10,8 +10,7 @@ from transformers import pipeline
 #from transformers import DistilBertTokenizerFast
 import gradio as gr
 import numpy as np
-import praw
-import pandas as pd
+
 
 reddit_keys = {'client_id' : "Q1w42RHhLq2fgwljAk_k-Q",		 # your client id
 'client_secret': "enUJfFthiZRynGfPQtoK1nCxRer2Dw",	 # your client secret
