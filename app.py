@@ -1,5 +1,5 @@
 '''
-Run 'python3 main.py' in terminal
+Run 'python3 app.py' in terminal
 Follow local URL
 '''
 
@@ -10,12 +10,15 @@ from transformers import pipeline
 #from transformers import DistilBertTokenizerFast
 import gradio as gr
 import numpy as np
+import praw
+import pandas as pd
+from Keys import reddit_keys
 
-reddit= praw.Reddit(client_id="Q1w42RHhLq2fgwljAk_k-Q",		 # your client id
-					client_secret="enUJfFthiZRynGfPQtoK1nCxRer2Dw",	 # your client secret
-                    usernme = "xl395", #profile username
-                    password = "12xiao34quanAria!", #profile password
-					user_agent="706_post")	 # your user agent
+reddit= praw.Reddit(client_id=reddit_keys['client_id'],		 # your client id
+					client_secret=reddit_keys['client_secret'],	 # your client secret
+                    usernme = reddit_keys['usernme'], #profile username
+                    password = reddit_keys['password'], #profile password
+					user_agent=reddit_keys['user_agent'])	 # your user agent
 
 
 classifier = pipeline("sentiment-analysis", model="michellejieli/NSFW_text_classifier")
