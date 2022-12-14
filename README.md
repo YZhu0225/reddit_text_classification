@@ -42,6 +42,9 @@ In this project, we created a text classifier Hugging Face Spaces app and Gradio
 * Run nvidia monitoring test: `nvidia-smi -l 1`
 
 ### DistilBERT transformer model
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/112578003/207485065-b072a7d9-61cb-44e6-9c8d-95863b2f8aa3.png" />
+</p>
 
 ### Finetune text classifier model and upload to Hugging Face 
 * In terminal, run `huggingface-cli login`
@@ -54,4 +57,7 @@ In this project, we created a text classifier Hugging Face Spaces app and Gradio
 * In terminal, run `python3 app.py`
 * Open the browser
 * Put reddit URL in *input_url* and get output
-![WechatIMG3674](https://user-images.githubusercontent.com/112578003/207481683-9a38c9e9-fd8f-48d9-be59-27f1583f96b6.jpeg)
+<p align="center">
+  <img width="700" height="450" src="https://user-images.githubusercontent.com/112578003/207481683-9a38c9e9-fd8f-48d9-be59-27f1583f96b6.jpeg">
+</p>
+
