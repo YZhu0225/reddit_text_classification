@@ -39,7 +39,7 @@ In this project, we created a text classifier Hugging Face Spaces app and Gradio
 
 * Data pulled in notebook `reddit_data/reddit_new.ipynb`
 
-### Verify GPU works
+### Verify GPU works in this [repo](https://github.com/nogibjj/Reddit_Classifier_Final_Project)
 * Run pytorch training test: `python utils/quickstart_pytorch.py`
 * Run pytorch CUDA test: `python utils/verify_cuda_pytorch.py`
 * Run tensorflow training test: `python utils/quickstart_tf2.py`
@@ -60,12 +60,12 @@ In this project, we created a text classifier Hugging Face Spaces app and Gradio
 
 **WARNING Reddit URL**
 <p align="center">
-  <img width="700" height="300" src="https://user-images.githubusercontent.com/112578003/207698979-f3751140-fc91-4613-9892-c22f2e5b7dfa.png">
+  <img width="700" height="250" src="https://user-images.githubusercontent.com/112578003/207698979-f3751140-fc91-4613-9892-c22f2e5b7dfa.png">
 </p>
 
 **SAFE Reddit URL**
 <p align="center">
-  <img width="700" height="300" src="https://user-images.githubusercontent.com/112578003/207699308-8847e2f3-be76-47e4-8a0b-ba4406f5a693.png">
+  <img width="700" height="250" src="https://user-images.githubusercontent.com/112578003/207699308-8847e2f3-be76-47e4-8a0b-ba4406f5a693.png">
 </p>
 
 ### Gradio interface
