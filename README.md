@@ -42,8 +42,9 @@ In this project, we created a text classifier Hugging Face Spaces app and Gradio
 * Run nvidia monitoring test: `nvidia-smi -l 1`
 
 ### DistilBERT transformer model
+
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/112578003/207485065-b072a7d9-61cb-44e6-9c8d-95863b2f8aa3.png" />
+  <img width="700" height="350" src="https://user-images.githubusercontent.com/112578003/207486477-a40d62be-8d06-4a35-ae4c-7077569bef44.png" />
 </p>
 
 ### Finetune text classifier model and upload to Hugging Face 
