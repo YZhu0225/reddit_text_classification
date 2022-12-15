@@ -66,12 +66,12 @@ In this project, we created a text classifier Hugging Face Spaces app and a Grad
 * Put reddit URL in *input_url* and get output
 * Or directly check out the spaces app [here](https://huggingface.co/spaces/yjzhu0225/reddit_text_classification_app)
 
-**WARNING Reddit URL**
+**SAFE Reddit URL**
 <p align="center">
   <img width="700" height="250" src="https://user-images.githubusercontent.com/112578003/207698979-f3751140-fc91-4613-9892-c22f2e5b7dfa.png">
 </p>
 
-**SAFE Reddit URL**
+**WARNING Reddit URL**
 <p align="center">
   <img width="700" height="250" src="https://user-images.githubusercontent.com/112578003/207699308-8847e2f3-be76-47e4-8a0b-ba4406f5a693.png">
 </p>
